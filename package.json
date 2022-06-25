@@ -7,8 +7,7 @@
     "build": "vue-cli-service build --target lib --name vue-accordion src/lib/VueAccordion.vue",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve",
-    "gh-pages": "PUBLIC_PATH=/vue-accordion/ vue-cli-service build --dest gh-pages",
-    "prepare": "npm run build"
+    "gh-pages": "PUBLIC_PATH=/vue-accordion/ vue-cli-service build --dest gh-pages"
   },
   "main": "dist/vue-accordion.common.js",
   "files": [
